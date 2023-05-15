@@ -1,0 +1,85 @@
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 30px;
+    color: purple;
+   
+  }
+
+
+  li {
+    color: grey;
+    font-size: 16px;
+    font-weight: 100;
+    height: 19px;
+    line-height: 1;
+    list-style: none;
+  }
+  
+  ul {
+    margin: 0 0 10px;
+    padding: 0;
+    list-style: none;
+  }
+  
+  
+  form {
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 28px;
+    display: block;
+    margin: 0 auto;
+    max-width: 450px;
+  }
+  
+  p {
+    font-size: 45px;
+  }
+  
+  hr {
+    margin-top: -200px;
+    margin-bottom: 2rem;
+  }
+  
+  .container {
+    border: 1px solid burlywood;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: radial-gradient(circle at 10% 20%, rgb(145, 217, 243) 0%, rgb(147, 164, 243) 90%);
+
+  }
+  
+  .search-form {
+    margin-bottom: 20px;
+    
+  }
+  .row {
+    margin-bottom: 30px;
+    margin-right: -185px;
+    margin-left: 35px;
+    padding: 0px 5px;
+    text-align: center;
+  }
+  .city {
+    margin-top: relative;
+    color: grey;
+    font-size: 100px;
+    font-weight: 100;
+    line-height: 28px;
+    margin: 10px;
+  }
+  .temperature {
+    color:gray;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 1;
+  }
+  .units {
+    position: relative;
+    font-size: 15px;
+    font-weight: 15px;
+    margin: 10px;
+  }
+  
