@@ -9,14 +9,14 @@ body {
 a {
     text-decoration: underline;
     font-size: large;
-    padding-left: 273px;
+    padding-left: 460px;
     
 }
 
 em {
     font-size: 20px;
-    padding-left: 273px;
-    position: relative;
+    padding-left: 460px;
+   
 }
 
   li {
@@ -59,7 +59,8 @@ em {
   }
   
   .container {
-    border: 1px solid burlywood;
+    border: 1px solid rgb(145, 127, 196);
+    max-width: 1015px;
     border-radius: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
