@@ -17,56 +17,59 @@
   </head>
 
   <body>
-      <div class="container">
-          
-        <div class="col-2">
-            <form class="search-form" id="search-form">
-                <input 
-                type="search"
-                placeholder="Type a city.."
-                autofocus="on"
-                autocomplete="off"
-                id="city-input"
-                class="form-control shadow-sm w-45"
-              />
-              <input 
-                type="submit" 
-                value="Search" 
-                class="form-control btn btn-primary shadow-sm w-45"
-              />  
-       
-                <button
-                  class="btn btn-success w-45"
-                  id="current-location-button"
-                >
-                  Current
-            </button>
-          </div>
-      </form>
-      
+    <div class="container">
+      <div class="weather-app-wrapper">
+        <div class="weather-app">
+          <form id="search-form" class="mb-3">
+            <div class="row">
+              <div class="col-9">
+                <input
+                  type="search"
+                  placeholder="Type a city.."
+                  class="form-control"
+                  id="city-input"
+                  autocomplete="off"
+                />
+              </div>
+              <div class="col-3">
+                <input
+                  type="submit"
+                  value="Search"
+                  class="btn btn-primary w-100"
+                />
+              </div>
+            </div>
+          </form>
+  
       <h1 id="city"></h1>
         <ul>
           <li id="date"></li>
           <li id="description"></li>
-          <li id="temperature"><span class="units">°C</span></li>
-          <li id="description"></li>
         </ul>
 
-        <div class="col-2">
+        <div class="row">
+          <div class="col-6">
+            <div class="d-flex weather-temperature">
+              <img src="" id="icon" 
+              class="float-left" />
+              <div class="float-left">
+                <strong id="temperature"></strong>
+                <span class="units"><a href ="#" id="celsius-link" class="active">°C </a> |  
+                <a href="#" id="fahrenheit-link">F°</a>
+              </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6">
           <ul>
               <li>Humidity: <span id="humidity"></span>%</li>
-              <li>Wind: <span id="wind"></span>km/h</li>
-          </ul>
-        </div>
+              <li>Wind: <span id="wind"></span> km/h</li>
+          </ul>  
+      </div>
+    </div>
 
-        <div class="row">
-          <div class="col-2">
-              <div class="float-right">
-                <span class="temperature" id="temperature"></span> 
-              </div>
-          </div>
-        </div>
-
+    
         <div class="row">
             <div class="col-2">
                 <div class="card-body">
@@ -115,7 +118,15 @@
         </div>
       </div>
     </div>
-  <a href="https://github.com/kzembill/Weather-Application">Open Source Code</a></br><em>By Kalli Caras</em><script src="src/script.js"></script>
-    </div>
+  </div>
+</div> 
+<div class="signature">
+    <a 
+    href="https://github.com/kzembill/Weather-Application" 
+    target="_blank"
+    >Open Source Code</a
+    ><small> By Kalli Caras</small>  
+  </div> 
+  <script src="src/script.js"></script>
   </body>
 </html>
