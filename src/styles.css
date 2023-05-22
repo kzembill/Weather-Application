@@ -2,37 +2,37 @@
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-radius: 30px;
-    color: purple;
+    color:#878787;
    
   }
-
-a {
-    text-decoration: underline;
-    font-size: large;
-    padding-left: 460px;
-    
-}
+  h1 {
+    color: #878787;
+    font-size: 35px;
+    font-weight: 100;
+    line-height: 28px;
+    margin-bottom: 0;
+  }
 
 em {
     font-size: 20px;
-    padding-left: 460px;
+    margin: 20px 0;
    
 }
 
   li {
-    color: grey;
+    color: #878787;
     font-size: 16px;
     font-weight: 100;
-    height: 19px;
-    line-height: 1;
+    line-height: 19px;
     list-style: none;
     text-align: left;
     padding: 5px;
+    margin: 0;
   
   }
   
   ul {
-    margin: 0 0 10px;
+    margin: 0;
     padding: 0;
     list-style: none;
  
@@ -59,12 +59,12 @@ em {
   }
   
   .container {
-    border: 1px solid rgb(145, 127, 196);
+    border: 1px transparent #878787;
     max-width: 1015px;
     border-radius: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-    background: radial-gradient(circle at 10% 20%, rgb(145, 217, 243) 0%, rgb(147, 164, 243) 90%);
+    background:  linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);;
 
   }
   
@@ -79,25 +79,49 @@ em {
     padding: 0px 5px;
 
   }
+ 
   .city {
     margin-top: relative;
-    color: grey;
+    color: #878787;
     font-size: 100px;
     font-weight: 100;
     line-height: 28px;
     margin: 10px;
   }
+
   .temperature {
-    color:gray;
+    color: #878787;
     font-size: 64px;
     font-weight: 400;
     line-height: 1;
   }
+
   .units {
     position: relative;
-    font-size: 15px;
+    font-size: 25px;
     font-weight: 15px;
     margin: 10px;
+    display: inline;
   }
-  
- 
+
+ .weather-temperature strong {
+  color: black;
+  font-weight: lighter;
+  font-size: 64px;
+ }
+
+ .weather-temperature .units {
+  position: relative;
+ }
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+
+.weather-temperature .active {
+  color: #878787;
+  cursor: default;
+}
+.signature {
+ padding-left: 450px;
+ position: fixed;
+}
