@@ -46,81 +46,49 @@
           <li id="date"></li>
           <li id="description"></li>
         </ul>
-
-        <div class="row">
-          <div class="col-6">
-            <div class="d-flex weather-temperature">
-              <img src="" id="icon" 
-              class="float-left" />
-              <div class="float-left">
-                <strong id="temperature"></strong>
-                <span class="units"><a href ="#" id="celsius-link" class="active">°C </a> |  
-                <a href="#" id="fahrenheit-link">F°</a>
-              </span>
-              </div>
-            </div>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        <div class="d-flex weather-temperature">
+          <img src="" alt="Clear" id="icon" class="float-left" />
+          <div class="float-left">
+            <strong id="temperature"></strong
+            ><span class="units"> F°</span>
           </div>
-
-          <div class="col-6">
-          <ul>
-              <li>Humidity: <span id="humidity"></span>%</li>
-              <li>Wind: <span id="wind"></span> km/h</li>
-          </ul>  
+        </div>
+      </div>
+      <div class="col-6">
+        <ul>
+          <li>Humidity: <span id="humidity"></span>%</li>
+          <li>Wind: <span id="wind"></span> km/h</li>
+        </ul>
       </div>
     </div>
-
-    
-        <div class="row">
-            <div class="col-2">
-                <div class="card-body">
-                  <h5 class="card-title">Mon</h5>
-                  <h6 class="card-subtitle mb-2 text-muted" id="monday-date"></h6>
-                  <p class="card-text">⛅</p>
-                  <strong id="mon-temp"></strong>
-              </div>
-          </div>
-      
-  
+   
+    </div>
+    <div class="weather-forecast"></div>
+      <div class="row">
         <div class="col-2">
-            <div class="card-body">
-              <h5 class="card-title">Tues</h5>
-              <h6 class="card-subtitle mb-2 text-muted" id="tuesday-date"></h6>
-              <p class="card-text">⛅</p>
-              <strong id="tues-temp"></strong>
-            </div>
-        </div>
-
-        <div class="col-2">
-          <div class="card-body">
-              <h5 class="card-title">Wed</h5>
-              <h6 class="card-subtitle mb-2 text-muted" id="wednesday-date"></h6>
-              <p class="card-text">⛅</p>
-              <strong id="wed-temp"></strong>
-            </div> 
-        </div>
-
-        <div class="col-2">
-            <div class="card-body">
-              <h5 class="card-title">Thur</h5>
-              <h6 class="card-subtitle mb-2 text-muted" id="thursday-date"></h6>
-              <p class="card-text">☀</p>
-              <strong id="thurs-temp"></strong>
-            </div>
-        </div>
-
-        <div class="col-2">
-            <div class="card-body">
-              <h5 class="card-title">Fri</h5>
-              <h6 class="card-subtitle mb-2 text-muted" id="friday-date"></h6>
-              <p class="card-text">⛅</p>
-              <strong is="fri-temp"></strong>
-            </div>  
+          <div class="weather-forecast-date">Thu</div>
+          <img
+            src="http://openweathermap.org/img/wn/50d@2x.png"
+            alt=""
+            width="42"
+          />
+          <div class="weather-forecast-temperatures">
+            <span class="weather-forecast-temperature-max"> 18° </span>
+            <span class="weather-forecast-temperature-min"> 12° </span>
         </div>
       </div>
     </div>
   </div>
-</div> 
-<div class="signature">
+ 
+   
+       
+       
+     
+
+  <div class="signature">
     <a 
     href="https://github.com/kzembill/Weather-Application" 
     target="_blank"
