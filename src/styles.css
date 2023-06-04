@@ -57,6 +57,10 @@ em {
     margin-top: -200px;
     margin-bottom: 2rem;
   }
+
+  .weather-wrapper {
+    display: grid;
+  }
   
   .container {
     border: 1px transparent #878787;
@@ -64,7 +68,8 @@ em {
     border-radius: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-    background:  linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);;
+    background:  linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+   
 
   }
   
@@ -130,6 +135,7 @@ em {
   margin-top: 20px;
   text-align: center;
   color: #000;
+  
 }
 .weather-forecast-temperature-min {
   opacity: 0.5;
