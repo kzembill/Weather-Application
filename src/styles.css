@@ -5,6 +5,7 @@ body {
     color:#878787;
    
   }
+
   h1 {
     color: #878787;
     font-size: 35px;
@@ -70,13 +71,13 @@ em {
     margin-bottom: 10px;
     background:  linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
    
-
   }
   
   .search-form {
     margin-bottom: 20px;
     
   }
+
   .row {
     margin-bottom: 30px;
     margin-right: -185px;
@@ -118,6 +119,7 @@ em {
  .weather-temperature .units {
   position: relative;
  }
+
 .weather-temperature .active:hover {
   text-decoration: none;
 }
@@ -126,24 +128,31 @@ em {
   color: #878787;
   cursor: default;
 }
+
 .signature {
- padding-left: 450px;
- position: fixed;
+ padding-left: -600px;
+ position: relative;
  font-size: 20px;
 }
+
 .weather-forecast {
   margin-top: 20px;
+  margin-bottom: 20px;
   text-align: center;
   color: #000;
   
 }
+
 .weather-forecast-temperature-min {
   opacity: 0.5;
 }
+
 .weather-forecast-date {
   font-size: 16px;
   opacity: 0.5;
 }
+
 .weather-forecast-temperatures {
   font-size: 13px;
 }
+
